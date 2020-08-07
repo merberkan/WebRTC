@@ -1,0 +1,48 @@
+#home{
+    margin-top: 15rem;
+    color:black;
+    padding: 1rem;
+}
+
+#home .home-form{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group{
+    padding: 0.25rem 0;
+    margin:0 auto;
+}
+
+.form-group label{
+    display: block;
+}
+
+.form-control{
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    resize: none;
+}
+
+.buttonsubmit{
+    font-weight: 700;
+    font-style: italic;
+    margin-top: 1.25rem;
+    margin-left: 87.5px;
+    margin-right: 87.5px;
+    width: 75%;
+    text-align: center;
+    background: #336ea2;
+    color: white;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+.buttonsubmit:hover{
+    background:white;
+    color: #336ea2;
+}
